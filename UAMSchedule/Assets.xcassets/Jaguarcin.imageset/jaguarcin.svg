@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520">
+<defs>
+  <radialGradient id="headGrad" cx="48%" cy="38%" r="55%">
+    <stop offset="0%" stop-color="#F5C338"/>
+    <stop offset="100%" stop-color="#C8820A"/>
+  </radialGradient>
+  <radialGradient id="muzzleGrad" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#FDE9A0"/>
+    <stop offset="100%" stop-color="#F5C842" stop-opacity="0.6"/>
+  </radialGradient>
+  <radialGradient id="noseGrad" cx="38%" cy="32%" r="60%">
+    <stop offset="0%" stop-color="#FF9060"/>
+    <stop offset="100%" stop-color="#D04010"/>
+  </radialGradient>
+  <radialGradient id="eyeGrad" cx="35%" cy="30%" r="60%">
+    <stop offset="0%" stop-color="#8B4513"/>
+    <stop offset="100%" stop-color="#3E1A06"/>
+  </radialGradient>
+  <radialGradient id="bodyGrad" cx="50%" cy="30%" r="60%">
+    <stop offset="0%" stop-color="#FAFAFA"/>
+    <stop offset="100%" stop-color="#ECECEC"/>
+  </radialGradient>
+</defs>
+<ellipse cx="255" cy="128" rx="32" ry="40" fill="#E8A820" transform="rotate(-18, 255, 128)"/>
+<ellipse cx="255" cy="128" rx="18" ry="24" fill="#FFBBBB" transform="rotate(-18, 255, 128)"/>
+<ellipse cx="425" cy="128" rx="32" ry="40" fill="#E8A820" transform="rotate(18, 425, 128)"/>
+<ellipse cx="425" cy="128" rx="18" ry="24" fill="#FFBBBB" transform="rotate(18, 425, 128)"/>
+<ellipse cx="340" cy="190" rx="100" ry="96" fill="url(#headGrad)"/>
+<ellipse cx="293" cy="160" rx="12" ry="9" fill="#2A1A08" opacity="0.50"/>
+<ellipse cx="387" cy="160" rx="12" ry="9" fill="#2A1A08" opacity="0.50"/>
+<ellipse cx="268" cy="196" rx="13" ry="9" fill="#2A1A08" opacity="0.46"/>
+<ellipse cx="412" cy="196" rx="13" ry="9" fill="#2A1A08" opacity="0.46"/>
+<ellipse cx="272" cy="216" rx="9"  ry="7" fill="#2A1A08" opacity="0.38"/>
+<ellipse cx="408" cy="216" rx="9"  ry="7" fill="#2A1A08" opacity="0.38"/>
+<ellipse cx="340" cy="226" rx="60" ry="50" fill="url(#muzzleGrad)"/>
+<ellipse cx="306" cy="188" rx="22" ry="20" fill="white"/>
+<ellipse cx="306" cy="188" rx="13" ry="16" fill="url(#eyeGrad)"/>
+<ellipse cx="306" cy="188" rx="7"  ry="10" fill="#0A0604"/>
+<circle  cx="311" cy="181" r="4"  fill="white" opacity="0.90"/>
+<path d="M285 180 Q306 166 327 180" fill="none" stroke="#2A1A08" stroke-width="2.2" stroke-linecap="round"/>
+<ellipse cx="374" cy="188" rx="22" ry="20" fill="white"/>
+<ellipse cx="374" cy="188" rx="13" ry="16" fill="url(#eyeGrad)"/>
+<ellipse cx="374" cy="188" rx="7"  ry="10" fill="#0A0604"/>
+<circle  cx="379" cy="181" r="4"  fill="white" opacity="0.90"/>
+<path d="M353 180 Q374 166 395 180" fill="none" stroke="#2A1A08" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M284 166 Q297 156 318 164" fill="none" stroke="#2A1A08" stroke-width="2.6" stroke-linecap="round" opacity="0.70"/>
+<path d="M362 164 Q383 156 396 166" fill="none" stroke="#2A1A08" stroke-width="2.6" stroke-linecap="round" opacity="0.70"/>
+<ellipse cx="340" cy="218" rx="16" ry="11" fill="url(#noseGrad)"/>
+<ellipse cx="334" cy="215" rx="5"  ry="3"  fill="white" opacity="0.35"/>
+<path d="M328 210 L340 218 L352 210" fill="none" stroke="#2A1A08" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M316 234 Q340 252 364 234" fill="none" stroke="#2A1A08" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="322" y1="224" x2="268" y2="218" stroke="#2A1A08" stroke-width="1.0" opacity="0.40"/>
+<line x1="322" y1="230" x2="268" y2="230" stroke="#2A1A08" stroke-width="1.0" opacity="0.40"/>
+<line x1="322" y1="236" x2="268" y2="242" stroke="#2A1A08" stroke-width="1.0" opacity="0.40"/>
+<line x1="358" y1="224" x2="412" y2="218" stroke="#2A1A08" stroke-width="1.0" opacity="0.40"/>
+<line x1="358" y1="230" x2="412" y2="230" stroke="#2A1A08" stroke-width="1.0" opacity="0.40"/>
+<line x1="358" y1="236" x2="412" y2="242" stroke="#2A1A08" stroke-width="1.0" opacity="0.40"/>
+<path d="M272 202 Q268 212 270 224" fill="none" stroke="#2A1A08" stroke-width="2.8" stroke-linecap="round" opacity="0.42"/>
+<path d="M408 202 Q412 212 410 224" fill="none" stroke="#2A1A08" stroke-width="2.8" stroke-linecap="round" opacity="0.42"/>
+<ellipse cx="340" cy="278" rx="24" ry="16" fill="#F5C338"/>
+<ellipse cx="258" cy="330" rx="20" ry="42" fill="#E8A820" transform="rotate(14, 258, 330)"/>
+<ellipse cx="246" cy="372" rx="20" ry="16" fill="#F5C338"/>
+<ellipse cx="422" cy="330" rx="20" ry="42" fill="#E8A820" transform="rotate(-14, 422, 330)"/>
+<ellipse cx="434" cy="372" rx="20" ry="16" fill="#F5C338"/>
+<rect x="268" y="284" width="144" height="112" rx="22" fill="url(#bodyGrad)"/>
+<polygon points="340,285 316,308 364,308" fill="#1BA99A"/>
+<text x="340" y="360" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="900" fill="#1BA99A" letter-spacing="3">UAM</text>
+<ellipse cx="340" cy="342" rx="42" ry="46" fill="#F0EEE8" opacity="0.45"/>
+<rect x="280" y="392" width="120" height="36" rx="10" fill="#1BA99A"/>
+<rect x="280" y="416" width="50" height="34" rx="10" fill="#1BA99A"/>
+<rect x="350" y="416" width="50" height="34" rx="10" fill="#1BA99A"/>
+<ellipse cx="305" cy="456" rx="28" ry="14" fill="#F5C338"/>
+<ellipse cx="375" cy="456" rx="28" ry="14" fill="#F5C338"/>
+<circle cx="286" cy="461" r="5" fill="#E8A820"/>
+<circle cx="299" cy="465" r="5" fill="#E8A820"/>
+<circle cx="312" cy="465" r="5" fill="#E8A820"/>
+<circle cx="324" cy="461" r="5" fill="#E8A820"/>
+<circle cx="356" cy="461" r="5" fill="#E8A820"/>
+<circle cx="369" cy="465" r="5" fill="#E8A820"/>
+<circle cx="382" cy="465" r="5" fill="#E8A820"/>
+<circle cx="394" cy="461" r="5" fill="#E8A820"/>
+</svg>

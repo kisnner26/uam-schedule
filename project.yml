@@ -1,0 +1,94 @@
+name: UAMSchedule
+options:
+  bundleIdPrefix: com.kisnner
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16"
+  groupSortPosition: top
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION: YES
+    APP_SHORTCUTS_ENABLE_FLEXIBLE_MATCHING: NO
+    ENABLE_APP_SHORTCUTS_FLEXIBLE_MATCHING: NO
+    APP_INTENTS_DEPLOYMENT_POSTPROCESSING: NO
+    SWIFT_REFLECTION_METADATA_LEVEL: all
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+
+targets:
+  UAMSchedule:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: UAMSchedule
+        excludes:
+          - "*.entitlements"
+      - path: Shared
+    info:
+      path: UAMSchedule/Info.plist
+      properties:
+        CFBundleURLTypes:
+          - CFBundleURLSchemes:
+              - com.kisnner.uamschedule
+            CFBundleURLName: auth0
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kisnner.uamschedule
+        INFOPLIST_FILE: UAMSchedule/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: "AppIcon"
+        APP_SHORTCUTS_ENABLE_FLEXIBLE_MATCHING: NO
+        ENABLE_APP_SHORTCUTS_FLEXIBLE_MATCHING: NO
+        APP_INTENTS_DEPLOYMENT_POSTPROCESSING: NO
+        SWIFT_REFLECTION_METADATA_LEVEL: all
+        SWIFT_VERSION: "6.0"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+    entitlements:
+      path: UAMSchedule/UAMSchedule.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.kisnner.uamschedule
+    dependencies:
+      - target: UAMScheduleWidget
+
+  UAMScheduleWidget:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: UAMScheduleWidget
+        excludes:
+          - "*.entitlements"
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kisnner.uamschedule.widget
+        INFOPLIST_FILE: UAMScheduleWidget/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION: YES
+        APP_SHORTCUTS_ENABLE_FLEXIBLE_MATCHING: NO
+        ENABLE_APP_SHORTCUTS_FLEXIBLE_MATCHING: NO
+        APP_INTENTS_DEPLOYMENT_POSTPROCESSING: NO
+        SWIFT_REFLECTION_METADATA_LEVEL: all
+        SWIFT_VERSION: "6.0"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+    entitlements:
+      path: UAMScheduleWidget/UAMScheduleWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.kisnner.uamschedule
