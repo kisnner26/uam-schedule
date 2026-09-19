@@ -31,6 +31,8 @@ targets:
       - path: UAMSchedule
         excludes:
           - "*.entitlements"
+          # copia antigua del widget de Live Activity: la versión activa vive en UAMScheduleWidget/
+          - "LiveActivity.swift"
       - path: Shared
     info:
       path: UAMSchedule/Info.plist

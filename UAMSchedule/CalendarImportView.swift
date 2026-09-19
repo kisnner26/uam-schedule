@@ -390,7 +390,7 @@ struct CalendarImportView: View {
 
 // MARK: - Models & Subviews
 
-struct DetectedCourse: Identifiable {
+struct DetectedCourse: Identifiable, @unchecked Sendable {
     let id = UUID()
     let title: String; let room: String; let sessions: [ClassSession]
     let occurrences: Int; let color: String; let calColor: Color

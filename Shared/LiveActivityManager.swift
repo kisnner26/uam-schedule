@@ -1,5 +1,5 @@
 import Foundation
-import ActivityKit
+@preconcurrency import ActivityKit
 import Combine
 
 // MARK: - Activity Attributes (shared between app and widget)
